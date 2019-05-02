@@ -1,5 +1,4 @@
 import React from 'react';
-import app from './app.png';
 import ios from './ios.png';
 import android from './android.png';
 

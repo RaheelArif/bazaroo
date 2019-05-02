@@ -9,11 +9,10 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem } from 'reactstrap';
+  
+   } from 'reactstrap';
+   import logo from './logo.png';
+
 
 export default class Header extends React.Component {
   constructor(props) {
@@ -31,15 +30,15 @@ export default class Header extends React.Component {
   }
   render() {
     return (
-      <div class="fixed-top ">
+      <div className="fixed-top ">
         <Navbar className="header " light expand="md">
-          <NavbarBrand className="logo" href="/">BAZAAROO!</NavbarBrand>
+          <NavbarBrand className="logo" href="/"><img src={logo} alt="Bazaroo"/></NavbarBrand>
           {/* <p>We are Launching Soon.......</p> */}
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav cla className="ml-auto my-nav" navbar>
+            <Nav  className="ml-auto my-nav" navbar>
               <NavItem>
-                <Link className="my-nav-link" href="/components/">Home</Link>
+                <Link className="my-nav-link" to="/">Home</Link>
               </NavItem>
               <NavItem>
                 <SignedOutLinks />
