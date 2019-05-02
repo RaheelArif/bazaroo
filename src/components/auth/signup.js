@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import {  Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 
 export default class Signup extends React.Component {
   render() {
@@ -9,7 +9,6 @@ export default class Signup extends React.Component {
           <h1>Demo Signup form just for routing </h1>
         <FormGroup>
           <Label for="exampleEmail">Plain Text (Static)</Label>
-          <Input plaintext value="Some plain text/ static value" />
         </FormGroup>
         <FormGroup>
           <Label for="exampleEmail">Email</Label>
