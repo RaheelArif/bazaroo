@@ -44,8 +44,10 @@ background-color: aliceblue;
   display: flex;
   flex-direction: column;
   width: 100%;
+  min-height: 450px;
   height: 600px;
-  background-image:url("components/images/search.jpg");
+  background-color: rgb(127, 127, 127);
+  /* background-image:url("components/images/search.jpg"); */
   justify-content: center;
   align-items: center;
 }
@@ -56,9 +58,11 @@ background-color: aliceblue;
 }
 .search-p{
   color: white;
+  text-align: center;
   font-size: 22px;
 }
 .search-s-a{
+  flex-wrap: nowrap !important;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -70,4 +74,108 @@ background-color: aliceblue;
   color: grey;
   width:90%;
 }
+.search-btn{
+  min-width: 100px !important;
+  background-color: rgb(76, 208, 218);
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+.easy-stp-bg{
+  width: 100%;
+  background-image: url("components/images/big.jpg");
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.easy-step-a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 248, 250);
+  width: 100%;
+  min-height: 344px;
+  padding: 150px 0px;
+
+}
+.easy-step-h{
+color: rgb(63, 64, 121);
+font-size: 32px;
+}
+.easy-imgs-a{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.easy-img{
+  margin-top: 20px;
+
+  padding: 32px 0px 32px 0px;
+  display: flex;
+  justify-content: center;
+  min-width: 200px;
+  align-items: center;
+  background-color: white;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px rgb(202, 201, 201);
+}
+.easy-img1{
+  margin-left: 0px !important;
+}
+.easy-img-p{
+  color: rgb(221, 78, 132);
+  font-size: 24px;
+
+}
+.easy-img-p2{
+  margin-top: -10px;
+  color: rgb(107, 109, 123);
+  text-align: center;
+}
+
+
+.get-app-area{
+  display: flex;
+  margin: 100px 0px;
+  flex-wrap: wrap;
+  color: white;
+  justify-content: center;
+}
+.app-img-a{
+  min-height: 300px;
+  background-color: antiquewhite;
+  text-align: center;
+  color: red;
+  font-size: 50px;
+}
+.app-txt-a{
+display: flex;
+flex-direction: column;
+}
+.app-p{
+  color: rgb(255, 240, 42);
+  font-size: 21px;
+  max-width: 540px;
+}
+.app-link-img-a{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  width: 305px;
+  justify-content: space-between;
+}
+
+.footer{
+  border-top: 1px solid rgb(209, 208, 208);
+  width:70%;
+  margin-left: 15%;
+   margin-top: 50px;
+   padding-top: 30px;
+   display: flex;
+   justify-content: space-between;
+}
+
+
 
